@@ -1,0 +1,177 @@
+.try{
+    background-color: rgb(24, 23, 23);
+    
+}
+.jumbotron{
+    min-height: 100vh;
+}
+.move{
+    padding-left: 10em;
+}
+
+.go_low{
+    padding-top: 2em;
+    
+}
+.about_title{
+    padding-left: 25px;
+    font-family: 'Antic Didone', serif; 
+    font-weight: bold; 
+    font-size: 4em;
+}
+.btn-primary{
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: bb0303;
+  border-width: 2px;
+  color:#bb0303;
+}
+.btn-primary:hover{
+ 
+  background-color: #bb0303;
+  border-color: #bb0303;
+  color:white;
+}
+  
+.move_right_main{
+    padding-left: 40;
+}
+/*The skill bar  */
+.skills {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 70px);
+    background-color: rgba(119, 119, 119, 0.2);
+    margin: 20px;
+    margin-right: 100;
+  }
+ .skl{
+     margin-left: 20px;
+     color: yellow;
+ }
+.sklLine{
+    position: relative;
+    bottom: 8px;
+    visibility: hidden;
+    padding-left: 6px;
+    color: greenyellow;
+}
+  .ProgWidth {
+    padding: 0px 20px;
+  }
+  .skillDiv {
+    height: 5px;
+    width: 100%;
+    /* background-color:gray;  for background color*/
+    background-color:transparent;
+  }
+  .skillBar {
+    display: block;
+    height: 5px;
+    background-color: rgb(26, 204, 19);
+  }
+  .p {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .htmlBar {
+    width: 70%;
+    animation: html 3s 1s 3 forwards;
+  }
+  .cssBar {
+    width: 70%;
+    animation: css 3s 1s 3 forwards;
+  }
+  .jsBar {
+    width: 75%;
+    animation: js 3s 1s 3 forwards;
+  }
+  
+  .javaBar {
+    width: 85%;
+    animation: java 3s 1s 3 forwards;
+  }
+  .ccpBar {
+    width: 80%;
+    animation: ccp 3s 1s 3 forwards;
+  }
+  .reactBar {
+    width: 10%;
+    animation: react 3s 1s 3 forwards;
+  }
+  .nodeBar {
+    width: 35%;
+    animation: node 3s 1s 3 forwards;
+  }
+  .sqlBar {
+    width: 85%;
+    animation: sql 3s 1s 3 forwards;
+  }
+  
+  @keyframes html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+  @keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes js {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 75%;
+    }
+  }
+  @keyframes java {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+  @keyframes ccp {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes react {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes node {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 35%;
+    }
+  }
+
+  @keyframes sql {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }

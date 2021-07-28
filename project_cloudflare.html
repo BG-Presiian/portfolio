@@ -1,0 +1,134 @@
+<!-- for social media icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Programming language icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+  </style>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Cormorant+Unicase&family=Marcellus+SC&display=swap');
+  </style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Import CSS file-->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="projects.css">
+<!-- Import JS file for function use-->
+<script src="scripts.js"></script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div class="header" id="myHeader" style="background-color: rgba(5, 5, 5, 0.9);">
+    
+    <!-- NavBar at top for going through different directories-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand " href="front.html">Presiian Iskrenov</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class=""><a href="main.html">Home</a></li>
+            <li class="about_me"><a href="main.html">About Me</a></li>
+            <li class="dropdown active">
+              <a class="dropdown-toggle " href="projects.html">Projects 
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="project_addicting_pixels.html">Addicting Pixels</a></li>
+                <li><a href="project_packet_decoder.html">Packet Sniffer</a></li>
+                <li><a href="project_cloudflare.html">CloudFlare Security Scanner</a></li>
+                <li><a href="#">Pending...</a></li>
+              </ul>
+            </li>
+            
+            
+            
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <div class="descr_head_back"> 
+    <h1 class="head_text" style="font-family: 'Antic Didone', serif; font-weight: bold;">CloudFlare Security Scanner</h1>
+    <ul class="programming_languages">
+      <li><i class="devicon-csharp-plain"></i></li>
+      <li><i class="devicon-git-plain-wordmark"></i></li>
+      <li><i class="devicon-dot-net-plain-wordmark"></i></li>
+     
+    </ul>
+  </div>
+
+ 
+
+
+  <div id="wrapper" class="navbar-innerbackground float-container jumbotron" style=" background-color: #d8d3d3;">
+    <div id="left" class=" container-fluid" style="padding-left: 550; padding-top: 30;">
+      
+      <a href="https://github.com/BG-Presiian/packet_sniffer" target="_blank"><i class="devicon-github-original-wordmark" style="font-size: 15em; text-decoration: none;"></i></a>
+       
+    </div>
+    
+    <div id="right" class="container" style="padding-top: 10; padding-left: 50; margin-right: 400;">
+      
+       <h1 style="font-family: 'Antic Didone', serif;">Technologies</h1>
+      <p> I used a github repository to make changes more easily and have a manageable directory. I used a virtual machine with a Kali Linux disc.
+        Kali linux terminal was used to run code (sudo ./netdump > net-dump.txt). 
+     The language used was C, as this was low level programming and would've been more difficult in a middle or upper level language.
+      I used vim to write my code.</p>
+
+         
+      <div class="go_low"></div>
+        <nav>    
+         
+
+        </nav>
+        <div class="top_of_page"></div>
+     </div>
+    </div>
+
+  <div id="wrapper" class="navbar-innerbackground float-container jumbotron" style="background-color:rgb(255, 251, 251); ">
+    <div id="left" class=" container-fluid" style="padding-top: 10; padding-left: 350; margin-right: 100;">
+      
+    
+        <h1 style="font-family: 'Antic Didone', serif;">Description</h1>
+        <p>I would decode a packet I received, a packet may look something like: <br>
+          <span style="color: orange;">"6c40 0889 c448 f832 e4a7 bf38 0800 45000034 4749 4000 3806 9360 a27d 0303
+        c0a801f2 01bb d2f1 6c7b 2f45 d5e0 061b 80110027 0b85 0000 0101 080a 4a1f 61e4 4a46c042"</span><br>
+        I decoded these hexadecimal values and formatted it so that it would display corresponding values of a TCP/IP header on a 32 bit system. </p>
+
+         
+       
+    </div>
+    
+    <div id="right" class="container" style="padding-right: 300; ">
+      <img src="img/packet_sniffer.png" >
+      
+      <div class="go_low"></div>
+        <nav>    
+         
+
+        </nav>
+      <div class="top_of_page"></div>
+     </div>
+    </div>
+
+
+   
+</body>
+
+</html>

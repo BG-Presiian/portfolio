@@ -1,0 +1,264 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+ 
+}
+.navbar nav{
+    transition-delay: 7s; /* delays for 1 second */
+    -webkit-transition-delay: 7s; /* for Safari & Chrome */
+}
+.navbar-inverse{
+  background-color: rgba(14, 14, 14, .7);
+  
+}
+.navbar-brand{
+  font-size: 3rem;
+}
+
+.jumbotron{
+    background-color: rgb(240, 235, 235);
+    margin-bottom: 0;
+}
+/*Spacing and font size for the navbar  */
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+  font-size: 20;
+}
+/* Add a gray background color and some padding to the footer */
+
+footer {
+    background-color:rgb(182, 173, 170);
+    padding: 25px;
+  }
+  .carousel {
+    width:100% !important; 
+    height: 100%;
+    overflow: hidden !important; 
+    right:0 !important; 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+   
+  }
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f7f7f7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(14, 14, 14, 0.3);
+    z-index: 2;
+    
+   
+}
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition-delay: 70ms; /* delays for 1 second */
+    -webkit-transition-delay: 70ms; /* for Safari & Chrome */
+    
+  }
+
+  .dropdown .dropdown-menu {
+    background-color:rgba(252, 252, 252, 0.5);
+   
+    
+    }
+
+/*background of site */
+.square_text {
+      font-size: 1.3em;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      left:0;
+      width:100%;
+      z-index:12;
+  }
+   /*Below is the scrollbar design change */
+    html::-webkit-scrollbar {
+      width: 10px;
+    }
+  
+  html::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+      background: rgb(255, 255, 255);
+      border-radius: 10px;
+    }
+  
+  html::-webkit-scrollbar-thumb:hover {
+      background: rgb(255, 255, 255);
+      border-radius: 10px;
+    }
+  
+  html::-webkit-scrollbar-thumb:active {
+      background: rgb(0, 0, 0);
+      border-radius: 10px;
+    }
+/*above is the scrollbar design change */
+
+.dropdown .dropdown-menu a:hover{background-color: #3a3a3a; color: whitesmoke;text-decoration: none;}
+
+.dropdown-menu a:hover {background-color: rgb(33, 34, 18); }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {display: block; }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdown-toggle {background-color: #3a3a3a; color: whitesmoke;}
+
+
+/*Below is the about me page
+*/
+#wrapper{
+  display: flex;
+}
+#left{
+  flex:80% 100% 0%;
+}
+#right{
+  flex:1;
+}
+/*footer stuff for emoticons and links */
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #125688;
+  color: white;
+}
+
+.footer{
+  font-size: 2rem;
+}
+
+
+
+#textPort{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 80px;
+  cursor: pointer;
+  letter-spacing: 20px;
+  margin: 0;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-left: 20px;
+  text-shadow: transparent;
+  background-color:transparent; 
+ 
+}
+#textPort:hover{
+ 
+  transition: 2s ALL;
+  background-color: rgb(0, 0, 0); 
+  text-shadow: white;
+  padding-left: 20px;
+
+}
+
+/*Title page half and half*/
+.leftHalf {
+  background: url(img/Snapchat-623627343.jpg);
+  border: 10px solid;
+  border-color:darkblue;
+  background-size: cover;
+  left: 0px;
+  width: 50%;
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 100%;
+  
+  
+}
+.rightHalf {
+  background: url(img/chi_town.jpg);
+  background-size: cover;
+  border: 10px solid;
+  border-color:black;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  background-repeat: no-repeat;
+  height: 100%;
+ 
+}
+
+.blur{
+  filter: blur(4px);
+  transition: 1s all;
+}
+
+
+.blackBlur{
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: .4;
+  z-index: 2;
+
+  transition: .25s all;
+ 
+}
+
+#square {
+  background-color: rgb(20, 20, 20);
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  
+}
+
+
+
+/*Below is the main.html now   */
+.main_container{
+  background-color: black;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+html {
+  scroll-behavior: smooth;
+}
